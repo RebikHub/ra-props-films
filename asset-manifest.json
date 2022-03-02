@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra-props-films/static/css/main.93bd6084.css",
+    "main.js": "/ra-props-films/static/js/main.2e2f1562.js",
+    "index.html": "/ra-props-films/index.html",
+    "main.93bd6084.css.map": "/ra-props-films/static/css/main.93bd6084.css.map",
+    "main.2e2f1562.js.map": "/ra-props-films/static/js/main.2e2f1562.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93bd6084.css",
+    "static/js/main.2e2f1562.js"
+  ]
+}

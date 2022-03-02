@@ -1,10 +1,12 @@
+import React from 'react';
+import Stars from './components/Stars';
 import './App.css';
 
-function App() {
+export default function App() {
+  function randomStars() {
+    return Math.floor(Math.random()*5);
+  }
   return (
-    <div className="App">
-    </div>
+    <Stars count={randomStars()}/>
   );
 }
-
-export default App;

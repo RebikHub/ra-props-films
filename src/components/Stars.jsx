@@ -3,7 +3,6 @@ import Star from './Star'
 import shortid from 'shortid';
 
 export default function Stars({count}) {
-  console.log(count);
   let countKeys = [];
   if (count && count === 1) {
     for (let i = 0; i < count; i++) {
@@ -16,7 +15,7 @@ export default function Stars({count}) {
   }
   return (
     <ul className="card-body-stars">
-      {countKeys.map(el => <Star key={el}/>)}
+      <Star countStars={countKeys}/>
     </ul>
   )
 }

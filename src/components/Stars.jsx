@@ -15,7 +15,7 @@ export default function Stars({count}) {
   }
   return (
     <ul className="card-body-stars">
-      <Star countStars={countKeys}/>
+      {countKeys.map(el => <Star key={el}/>)}
     </ul>
   )
 }

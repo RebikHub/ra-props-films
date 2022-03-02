@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wh5g93l2949y0k9s/branch/master?svg=true)](https://ci.appveyor.com/project/RebikHub/ra-props-films/branch/master)
 
 [Рейтинг фильмов](https://rebikhub.github.io/ra-props-films/)
 
